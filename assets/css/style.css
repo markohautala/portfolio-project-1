@@ -11,66 +11,92 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
 
-    /*header rules*/
-    #header {
-        background-color: #323131;
-        height: 60px;
-        width: 100%;
+/*header rules*/
+#header {
+    background-color: #323131;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Voltaire', Helvetica, sans-serif;
+}
+
+#menu li {
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.active {
+    border-bottom: 1px solid #cfcece;
+}
+
+#logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Tenor Sans', Helvetica, sans-serif;
+    font-size: 200%;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+#anchor-logo {
+    text-decoration: none;
+    align-self: center;
+
+}
+
+/*main rules*/
+#main {
+    background-color: #C4C7B6;
+    height: 100px;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+/*footer rules*/
+#footer {
+    background-color: #696867;
+    height: 60px;
+    width: 100%;
+}
+
+#social-links i {
+    color: #ffffff;
+}
+
+#social-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 15px 0;
+    font-size: 170%;
+}
+
+/*responsive design and media queries*/
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
         display: flex;
-        justify-content: space-evenly;
+        padding-top: 18px;
+        
     }
 
-    #menu a {
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Voltaire', Helvetica, sans-serif;
+    #menu>li {
+        padding-left: 2rem;
     }
-
-    #menu li {
-        list-style-type: none;
-        letter-spacing: 1px;
-    }
-
-    .active {
-        border-bottom: 1px solid #cfcece;
-    }
-
-    #logo {
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Tenor Sans', Helvetica, sans-serif;
-        font-size: 200%;
-        text-decoration: none;
-        letter-spacing: 4px;
-    }
-
-    #anchor-logo {
-        text-decoration: none;
-    }
-
-    /*main rules*/
-    #main {
-        background-color: #C4C7B6;
-        height: 100px;
-        width: 100%;
-        flex: 1 0 auto;
-    }
-
-    /*footer rules*/
-    #footer {
-        background-color: #696867;
-        height: 60px;
-        width: 100%;
-    }
-
-    #social-links i {
-        color: #ffffff;
-    }
-
-    #social-links {
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-        padding: 15px 0;
-        font-size: 170%;
+}
