@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #323131;
+    height: 100px;
+    width: 100%;
+}
+
+#main {
+    background-color: #C4C7B6;
+    height: 100px;
+    width: 100%;
+
+}
+
+#footer {
+    background-color: #696867;
+    height: 100px;
+    width: 100%;
+}
