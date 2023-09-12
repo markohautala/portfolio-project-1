@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Voltaire&display=swap');
+
+/*generic rules*/
 * {
     padding: 0;
     margin: 0;
@@ -9,12 +12,25 @@ body {
     display: flex;
     flex-direction: column;
 
+/*header rules*/
 #header {
     background-color: #323131;
     height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+#header > a {
+}
+
+#logo {
+    font-family: 'Tenor Sans', Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*main rules*/
 #main {
     background-color: #C4C7B6;
     height: 100px;
@@ -22,7 +38,7 @@ body {
     flex: 1 0 auto;
 
 }
-
+/*footer rules*/
 #footer {
     background-color: #696867;
     height: 60px;
