@@ -13,6 +13,8 @@ body {
     flex-direction: column;
 
 /*header rules*/
+
+
 #header {
     background-color: #323131;
     height: 60px;
@@ -21,13 +23,25 @@ body {
     justify-content: space-evenly;
 }
 
-#header > a {
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Voltaire', Helvetica, sans-serif;
+}
+
+#menu li {
+    list-style-type: none;
 }
 
 #logo {
-    font-family: 'Tenor Sans', Helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Tenor Sans', Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+.active {
+    border-bottom: 1px solid #cfcece;
 }
 
 /*main rules*/
