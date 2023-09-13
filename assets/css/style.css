@@ -84,7 +84,7 @@ nav {
 
 /*main rules*/
 #main {
-    background-color: #C4C7B6;
+    background-color: #DCD4D1;
     height: 100px;
     width: 100%;
     flex: 1 0 auto;
@@ -97,11 +97,20 @@ nav {
     background: url("../images/interior/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg") no-repeat center center / cover;
 }
 
-#main-title
+#main-title {
+    font-family: 'Tenor Sans', Helvetica, sans-serif;
+    color: #000000;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    text-transform: uppercase;
+    margin-left: 10%;
+    font-size: 200%;
+}
 
 /*footer rules*/
 #footer {
-    background-color: #696867;
+    background-color: #807674;
     height: 60px;
     width: 100%;
 }
@@ -122,20 +131,28 @@ nav {
 
 @media screen and (min-width: 768px) {
     nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
+        display: flex;
         width: fit-content;
         padding-right: 1rem;
+        background: none;
+        position: relative;
+        top: -50px;
+        left: 12%;
     }
 
     #menu {
         display: flex;
-        padding-top: 18px;
-        
     }
 
     #menu>li {
         padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        left: 120px;
     }
 }
