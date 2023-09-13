@@ -63,7 +63,7 @@ body {
     align-self: center;
     color: #ffffff;
     position: absolute;
-    right: 20px;
+    right: 35px;
 }
 
 #nav-toggle {
@@ -74,12 +74,13 @@ nav {
     display: none;
     position: absolute;
     background-color: #323131;
-    width: 120px;
+    width: 125px;
     margin-top: 58px;
     right: 20px;
-    border-radius: 2px;
-    padding: 8px;
+    border-radius: 10px 30px;
     text-align: center;
+    padding-bottom: 18px;
+    padding-top: 10px;
 }
 
 /*main rules*/
@@ -150,6 +151,10 @@ nav {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #menu li {
+        font-size: 120%;
     }
 
     #logo {
