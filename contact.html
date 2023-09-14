@@ -15,7 +15,8 @@
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-ellipsis-vertical"></i></label>
+        ><i class="fa-solid fa-ellipsis-vertical"></i
+      ></label>
       <nav>
         <ul id="menu">
           <li><a href="index.html">Home</a></li>
@@ -26,47 +27,63 @@
     </header>
     <!--Start of main-->
     <main id="main">
-        <section ID="main-contact-section"></section>
-    <!--start of form-->
-      <div>
-        <form action="">
-            <div class="">
-                <label for="subject" class="">Subject</label>
-                <br>
-                <input id="subject" type="text" name="subject" placeholder="Subject" required>
-            </div>
+      <form action="" id="form">
+        <div id="form-div">
+          <div class="">
+            <label for="subject" class="">Subject</label>
+            <br />
+            <input
+              id="subject"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
 
-            <div class="">
-                <label for="first-name" class="">First Name</label>
-                <br>
-                <input id="first-name" type="text" name="first name" placeholder="First Name" required>
-            </div>
+          <div class="">
+            <label for="first-name" class="">First Name</label>
+            <br />
+            <input
+              id="first-name"
+              type="text"
+              name="first name"
+              placeholder="First Name"
+              required
+            />
+          </div>
 
-            <div class="">
-                <label for="last-name" class="">Last Name</label>
-                <br>
-                <input id="last-name" type="text" name="last name" placeholder="Last Name" required>
-            </div>
+          <div class="">
+            <label for="last-name" class="">Last Name</label>
+            <br />
+            <input
+              id="last-name"
+              type="text"
+              name="last name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
 
-            <div class="">
-                <label for="email" class="block-label">Your Email</label>
-                <br>
-                <input id="email" type="email" name="email" placeholder="Your email" required>
-            </div>
+          <div class="">
+            <label for="email" class="block-label">Your Email</label>
+            <br />
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </div>
 
-            <label for="text-input" class="">What do you need help with to style?</label>
-            <br>
-            <textarea id="text-input" rows="4" cols="87" name="feedback" required></textarea>
-        </form>
-      </div>
-    <!--google maps-->
-          <section id="googlemaps">
-            <iframe id="map"
-                src="https://shorturl.at/gjtKM"
-                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </section>
-        </section>
+          <label for="text-input" class="">How can we help you?</label>
+          <br />
+          <textarea name="" id="text-input" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" class="block-label" value="Send" />
+        </div>
+      </form>
     </main>
     <!--Start of footer-->
     <footer id="footer">
