@@ -110,14 +110,15 @@ nav {
 }
 
 #map {
-    position: fixed;
     bottom: 0;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 /*footer rules*/
 #footer {
     background-color: #807674;
+    position: relative;
+    bottom: 0;
     height: 60px;
     width: 100%;
 }
