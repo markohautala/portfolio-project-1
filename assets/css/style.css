@@ -120,6 +120,18 @@ nav {
     padding: 10px;
     font-family: 'Lora';
     line-height: 1.5;
+    max-width: 300px;
+    text-align: left;
+
+}
+
+.submit-button {
+    padding: 7px 15px 7px 15px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: medium;
 }
 
 #form-div {
