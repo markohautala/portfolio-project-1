@@ -9,3 +9,10 @@ The website contains of three html-pages - homepage, contact-page and a gallery-
 Problems that i have encountered along the way:
 - the images would not show up and I did write the css rule correctly - what I did notice was that the images folder was not inside of the assets folder. This was easily fixed.
 - the iframe is stuck under the footer - they should both be fully visible and be aligned next to each other. This was solved by not having the property of height: 100vh; in the main-section.
+- The h1 heading moved itself when i added divs into index.html, and this was fixed by making it have the value of relative instead of absolute to the position-property.
+
+to-do-list:
+-deploy page
+-add meta tags and favicon
+-font family fallbacks
+-description and keywords in meta for SEO purpose

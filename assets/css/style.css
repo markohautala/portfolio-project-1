@@ -108,11 +108,11 @@ nav {
     font-family: 'Tenor Sans', Helvetica, sans-serif;
     color: #000000;
     text-align: left;
-    position: absolute;
+    position: relative;
     top: 20%;
     text-transform: uppercase;
     margin-left: 10%;
-    font-size: 200%;
+    font-size: 230%;
 }
 
 #contact-sections {
