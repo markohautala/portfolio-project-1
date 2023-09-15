@@ -1,6 +1,7 @@
 Welcome to Interior Design Art - ID Art.
 
-This website contains of a homepage, contact-page and a gallery-page.
+This website is intended to showcase a interior stylists brand, gallery (references) and the contact section reach the stylists.
+The website contains of three html-pages - homepage, contact-page and a gallery-page.
 
 
 
