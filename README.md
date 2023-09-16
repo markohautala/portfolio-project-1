@@ -37,12 +37,8 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 - The styling of the contact-section to the responsive sizes.
 
 
-### Deployment
+### Testing
 - The projects sourcecodes has been validated by W3C for both the html-codes and CSS and were all accepted.
-- When the project was deployed, there were no additional bugs. 
-
-
-to-do-list:
--add favicon
--font family fallbacks
--action to the form (post)?
+- The project has been tested and works in different browsers.
+- Using the DevTools, the design is responsive and everything is readable and in good sizes so that the user can see all the different elements with ease.
+- 
