@@ -6,9 +6,13 @@ The website contains of three html-pages - homepage, contact-page and a gallery-
 
 The user can interact with the webpage by displaying pictures and scrolling thorugh the contents on every html page - there is a responsive navbar that has a dropdown menu at smaller screens and on tablets and higher resolutions it becomes a horisontal navbar in the header. There is also a iframe with google maps and a contact form to fill out if the user want's to get in contact.
 
-/workspaces/portfolio-project-1/assets/images/responsive.png
+### Responsive
+<https://ibb.co/zrsyPGy>
+
+The webpage is responsive on all devices and has been tested.
 
 [Link to the deployed/live project](https://markohautala.github.io/portfolio-project-1/)
+
 
 ### Coding languages that I have used
 Accoring to my GitHub, these are the coding-languages that are used in the project:
@@ -40,7 +44,20 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 
 
 ### Testing
-- The projects sourcecodes has been validated by W3C for both the html-codes and CSS and were all accepted.
+- The projects sourcecodes has been validated by W3C for both the html-codes and CSS and were all verified and validated.
 - The project has been tested and works in different browsers.
 - Using the DevTools, the design is responsive and everything is readable and in good sizes so that the user can see all the different elements with ease.
-- 
+- Lighthouse report: Performance: 73%, Accessibility: 97%, Best Practices: 100%, SEO: 100%
+
+### Existing Features
+
+- Homepage - consists of a header with a logo inside and a navbar so that the user can go to other html pages such as reference projects and contact form and information
+In the homepage there is also a slogan for the brand and a picture. Under the picture three are three sections that showcase three benefits for the company/brand.
+
+- References - this paga is simple but effective and it has a masonry style layout to showcase reference-projects that the brand or company has performed before. The purpose if this is to showcase what they can acomplish. 
+
+- Contact us - this page has a form-section as it's first element. In the form the user can submit their subject, first and last name together with the email and the main message. It all ends with a submit-button.
+Beneath the form, there are two sections - one shows the adress to the company, and the second section shows email and phonenumber details. After those two sections there is a iframe google maps section, to show where the company is visually.
+
+- All the pages hade the same design concerning header, footer, logo and nav-bar - to give a consistent and good UX to the user.
+The footer consists of three social media logos.
