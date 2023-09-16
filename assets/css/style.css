@@ -15,8 +15,8 @@ body {
     padding: 0;
     position: relative;
 }
-
-/*header rules*/
+/*Until the media queries, the codes below are mobile-first adapted*/
+/*header*/
 #header {
     background-color: #323131;
     height: 60px;
@@ -88,7 +88,7 @@ nav {
     z-index: 999;
 }
 
-/*main rules*/
+/*main*/
 #main {
     background-color: #DCD4D1;
     width: 100%;
@@ -257,7 +257,7 @@ nav {
     margin-right: -30px;
 }
 
-/*footer rules*/
+/*footer*/
 #footer {
     background-color: #807674;
     height: 60px;
@@ -297,7 +297,7 @@ div img {
 }
 
 /*responsive design and media queries*/
-
+/*tablets*/
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
@@ -358,7 +358,7 @@ div img {
         margin-left: 20px;
         
     }
-
+/*bigger screen sizes*/
     @media screen and (min-width: 992px) {
 
         #reference-images {
@@ -373,7 +373,7 @@ div img {
         }
 
 
-
+/*bigger screen sizes - 1200px and wider*/
     @media screen and (min-width: 1200px) {
 
     }

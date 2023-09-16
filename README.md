@@ -2,7 +2,8 @@
 Welcome to Interior Design Art - ID Art.
 
 This website is intended to showcase a interior stylists brand, gallery (references) and the contact section reach the stylists.
-The website contains of three html-pages - homepage, contact-page and a gallery-page.
+The website contains of three html-pages - homepage, contact-page and a gallery-page. This is achieved by using semantic html elements such as heading, main and footer and nav. Other relevant elements are also added to display the relevant content.
+
 The user can interact with the webpage by displaying pictures and scrolling thorugh the contents on every html page - there is a responsive navbar that has a dropdown menu at smaller screens and on tablets and higher resolutions it becomes a horisontal navbar in the header. There is also a iframe with google maps and a contact form to fill out if the user want's to get in contact.
 
 [Link to the deployed/live project](https://markohautala.github.io/portfolio-project-1/)
