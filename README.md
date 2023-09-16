@@ -5,7 +5,7 @@ This website is intended to showcase a interior stylists brand, gallery (referen
 The website contains of three html-pages - homepage, contact-page and a gallery-page.
 The user can interact with the webpage by displaying pictures and scrolling thorugh the contents on every html page - there is a responsive navbar that has a dropdown menu at smaller screens and on tablets and higher resolutions it becomes a horisontal navbar in the header. There is also a iframe with google maps and a contact form to fill out if the user want's to get in contact.
 
-[Link to the deployed/live project]()
+[Link to the deployed/live project](https://markohautala.github.io/portfolio-project-1/)
 
 ### Coding languages that I have used
 Accoring to my GitHub, these are the coding-languages that are used in the project:
@@ -26,6 +26,8 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 - All the images in the website are copyright-free from [this link](<https://unsplash.com/s/photos/interior>)
 - the color-schemes for this project are actually taken from the banner image itself. I used "html color from image"-website and picked the different color codes from there.
 - Google fonts are used to display the fonts in the logo and the rest of the webpages textareas.
+- DevTools has been used all the time during the development process to preview the code-changes. Mobile-first design has been the first focus and then i have moved on to adjust the content to higher media queries to make the pages and content responsive.
+- 
   
 ### Things to add in the futute to the webpage
 - Copyright information to the footer
@@ -39,7 +41,6 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 
 
 to-do-list:
--deploy page
 -add meta tags and favicon
 -font family fallbacks
 -description and keywords in meta for SEO purpose

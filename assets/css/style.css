@@ -281,6 +281,20 @@ nav {
     height: 300px;
 }
 
+.hidden {
+    display: none;
+}
+
+#reference-images {
+    line-height: 1;
+}
+
+div img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 /*responsive design and media queries*/
 
 @media screen and (min-width: 768px) {
@@ -309,4 +323,3 @@ nav {
     #menu li {
         font-size: 120%;
     }
-    
