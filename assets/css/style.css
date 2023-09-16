@@ -16,6 +16,7 @@ body {
     position: relative;
     font-family: 'Voltaire', Helvetica, sans-serif;
 }
+
 /*Until the media queries, the codes below are mobile-first adapted*/
 /*header*/
 #header {
@@ -230,7 +231,9 @@ nav {
     border-radius: 30px 10px;
 }
 
-.fa-calendar-days, .fa-check, .fa-leaf {
+.fa-calendar-days,
+.fa-check,
+.fa-leaf {
     color: #ffffff;
     font-size: 220%;
     margin-top: 19px;
@@ -339,7 +342,8 @@ div img {
         text-align: center;
     }
 
-    #emailphone, #address {
+    #emailphone,
+    #address {
         text-align: center;
     }
 
@@ -356,42 +360,47 @@ div img {
 
     /*Make the company benefits responsive*/
     #idart3 {
-            width: 100%;
-            height: auto;
-        }
+        width: 100%;
+        height: auto;
+    }
+
     #companybenefits {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    #benefit1, #benefit2, #benefit3 {
+    #benefit1,
+    #benefit2,
+    #benefit3 {
         margin-left: 20px;
-        
+
     }
 
 
-/*bigger screen sizes*/
+    /*bigger screen sizes*/
     @media screen and (min-width: 992px) {
 
         #reference-images {
-                column-count: 3;
-            }
+            column-count: 3;
+        }
     }
 
-        #eco, #flexible, #review {
-            font-size: 130%;
-            margin-right: -45px;
+    #eco,
+    #flexible,
+    #review {
+        font-size: 130%;
+        margin-right: -45px;
 
-        }
+    }
 
-        #idart1 {
-            margin-left: 400px;
-        }
+    #idart1 {
+        margin-left: 400px;
+    }
 
 
-/*bigger screen sizes - 1200px and wider*/
+    /*bigger screen sizes - 1200px and wider*/
     @media screen and (min-width: 1200px) {
         #idart1 {
-                margin-left: 600px;
-            }
+            margin-left: 600px;
+        }
     }
