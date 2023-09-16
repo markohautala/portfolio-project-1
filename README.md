@@ -43,7 +43,6 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 
 
 to-do-list:
--add meta tags and favicon
+-add favicon
 -font family fallbacks
--description and keywords in meta for SEO purpose
 -action to the form (post)?
