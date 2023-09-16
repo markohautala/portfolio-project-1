@@ -33,6 +33,7 @@ Accoring to my GitHub, these are the coding-languages that are used in the proje
 - Copyright information to the footer
 - More html-pages to the navbar - one that explains the different reference-projects more in detail and maybe a costumer review section from Trustpilot or something of that kind to reassure the visitor/user that the service is trustworty, genuine and apprecieted by others.
 - A logo in form of a icon or a picture - the same picture could then be placed as the favicon aswell. This would be better for the overall branding.
+- The styling of the contact-section to the responsive sizes.
 
 
 ### Deployment
@@ -44,3 +45,4 @@ to-do-list:
 -add meta tags and favicon
 -font family fallbacks
 -description and keywords in meta for SEO purpose
+-action to the form (post)?

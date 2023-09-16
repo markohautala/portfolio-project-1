@@ -323,3 +323,49 @@ div img {
     #menu li {
         font-size: 120%;
     }
+
+    #reference-images {
+        column-count: 2;
+    }
+
+    #form-div {
+        text-align: center;
+    }
+
+    #emailphone, #address {
+        text-align: center;
+    }
+
+    /*Make the company benefits responsive*/
+    #idart3 {
+            width: 100%;
+            height: auto;
+        }
+    #companybenefits {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #benefit1, #benefit2, #benefit3 {
+        margin-left: 20px;
+        
+    }
+
+    @media screen and (min-width: 992px) {
+
+        #reference-images {
+                column-count: 3;
+            }
+    }
+
+        #eco, #flexible, #review {
+            font-size: 130%;
+            margin-right: -45px;
+
+        }
+
+
+
+    @media screen and (min-width: 1200px) {
+
+    }
