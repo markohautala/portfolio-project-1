@@ -6,8 +6,6 @@ The website contains of three html-pages - homepage, contact-page and a gallery-
 
 The user can interact with the webpage by displaying pictures and scrolling thorugh the contents on every html page - there is a responsive navbar that has a dropdown menu at smaller screens and on tablets and higher resolutions it becomes a horisontal navbar in the header. There is also a iframe with google maps and a contact form to fill out if the user want's to get in contact.
 
-![Responsive design outcome](https://github.com/markohautala/portfolio-project-1/assets/139875860/7f8a563f-02db-4eb1-b009-bf6897141740)
-
 [Link to the deployed/live project](https://markohautala.github.io/portfolio-project-1/)
 
 ### Coding languages that I have used
