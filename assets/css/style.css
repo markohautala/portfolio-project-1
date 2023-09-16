@@ -163,6 +163,7 @@ nav {
     height: 300px;
     padding-top: 50px;
     padding-left: 35px;
+    margin-left: 20px;
 }
 
 #idart1div {
@@ -334,6 +335,13 @@ div img {
 
     #emailphone, #address {
         text-align: center;
+    }
+
+
+
+    #idart1 {
+        margin-left: 270px;
+
     }
 
     /*Make the company benefits responsive*/
