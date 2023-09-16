@@ -120,7 +120,7 @@ nav {
     padding-left: 5%;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-family: 'Lora';
+    font-family: 'Lora', Helvetica, sans-serif;
     line-height: 1.5;
     max-width: 95%;
     text-align: left;
