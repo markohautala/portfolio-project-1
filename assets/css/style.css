@@ -347,6 +347,10 @@ div img {
 
     }
 
+    #idart2 {
+        margin-left: 35px;
+    }
+
     /*Make the company benefits responsive*/
     #idart3 {
             width: 100%;
@@ -361,6 +365,8 @@ div img {
         margin-left: 20px;
         
     }
+
+
 /*bigger screen sizes*/
     @media screen and (min-width: 992px) {
 
