@@ -15,7 +15,6 @@ body {
     padding: 0;
     position: relative;
     font-family: 'Voltaire', Helvetica, sans-serif;
-    line-height: 1.7;
 }
 /*Until the media queries, the codes below are mobile-first adapted*/
 /*header*/
@@ -166,6 +165,7 @@ nav {
     padding-top: 50px;
     padding-left: 35px;
     margin-left: 20px;
+    line-height: 1.7;
 }
 
 #idart1div {
@@ -195,6 +195,7 @@ nav {
 #idart3 {
     width: 300px;
     height: 300px;
+    line-height: 1.7;
 }
 
 #companybenefits {
@@ -276,13 +277,15 @@ nav {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 15px 0;
+    padding-top: 10px;
     font-size: 170%;
 }
 
 #map {
     width: 100%;
     height: 300px;
+    border: 0;
+    border-radius: 5px;
 }
 
 .hidden {
@@ -388,5 +391,7 @@ div img {
 
 /*bigger screen sizes - 1200px and wider*/
     @media screen and (min-width: 1200px) {
-
+        #idart1 {
+                margin-left: 600px;
+            }
     }
