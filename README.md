@@ -19,6 +19,52 @@ The user can interact with the webpage by displaying pictures and scrolling thor
 
 <hr>
 
+### Existing Features and the sites purpose
+Homepage - consists of a header with a logo inside, and a navbar so that the user can go to other html pages such as "reference projects" and a "contact form".
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+In the homepage there is also a slogan for the brand and a hero-image. 
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+
+Under the picture three are three sections that showcase three benefits for the company/brand.
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+References - another html-page - this page is simple but effective and it has a masonry style layout to showcase reference-projects that the brand or company has performed before. The purpose if this is to showcase what they can acomplish regarding styling. This page is responsive so that the columns increase as the page width expands.
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+- Contact us - the third and last html-page - this page has a form-section as it's first element. In the form the user can submit their subject, first and last name together with their email and the main message. It all ends with a submit-button.
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+Beneath the form, there are two sections - one shows the adress to the company, and the second section shows email and phonenumber details. 
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+
+After those two sections there is a iframe google maps section, to show where the company is visually.
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+All the pages have the same design concerning header, footer, logo and nav-bar - to give a consistent and good UX to the user.
+The footer consists of three social media logos.
+<p align="center">
+  <img src="" alt="" width="400">
+</p>
+
+<hr>
+
 ### Coding languages that I have used
 
 <img src="assets/images/interior/programming languages.png" alt="programming languages" width="300">
@@ -93,16 +139,3 @@ This site is deployed using GitHub pages. To deploy the page using GitHub pages:
 - SEO: 100%
 
 <hr>
-
-### Existing Features
-
-- Homepage - consists of a header with a logo inside and a navbar so that the user can go to other html pages such as reference projects and contact form and information
-In the homepage there is also a slogan for the brand and a picture. Under the picture three are three sections that showcase three benefits for the company/brand.
-
-- References - this paga is simple but effective and it has a masonry style layout to showcase reference-projects that the brand or company has performed before. The purpose if this is to showcase what they can acomplish. 
-
-- Contact us - this page has a form-section as it's first element. In the form the user can submit their subject, first and last name together with the email and the main message. It all ends with a submit-button.
-Beneath the form, there are two sections - one shows the adress to the company, and the second section shows email and phonenumber details. After those two sections there is a iframe google maps section, to show where the company is visually.
-
-- All the pages hade the same design concerning header, footer, logo and nav-bar - to give a consistent and good UX to the user.
-The footer consists of three social media logos.
